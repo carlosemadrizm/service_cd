@@ -1,0 +1,8 @@
+# Ignorar la carpeta de dependencias de Composer
+/vendor/
+
+# Ignorar el archivo de base de datos local o temporal
+/config_db.php
+
+# Ignorar el archivo de URLs
+/config_login.php
