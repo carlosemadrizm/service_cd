@@ -1,0 +1,9 @@
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    google_id VARCHAR(50) NOT NULL UNIQUE,
+    name VARCHAR(100),
+    email VARCHAR(100) UNIQUE,
+    picture TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
